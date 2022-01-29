@@ -7,18 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		82B3295927A46CCE00A8386A /* MissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B3295827A46CCE00A8386A /* MissionView.swift */; };
+		82E884E527A28D84003BD6AB /* Mission.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E884E427A28D84003BD6AB /* Mission.swift */; };
+		82E884E727A2A7B6003BD6AB /* color-theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E884E627A2A7B6003BD6AB /* color-theme.swift */; };
 		82FF13A1279CF48000429BD7 /* MoonshotApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FF13A0279CF48000429BD7 /* MoonshotApp.swift */; };
 		82FF13A3279CF48000429BD7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FF13A2279CF48000429BD7 /* ContentView.swift */; };
 		82FF13A5279CF48200429BD7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82FF13A4279CF48200429BD7 /* Assets.xcassets */; };
 		82FF13A8279CF48200429BD7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82FF13A7279CF48200429BD7 /* Preview Assets.xcassets */; };
+		82FF13AF279CF49500429BD7 /* before.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FF13AE279CF49500429BD7 /* before.swift */; };
+		82FF13B1279CF4E500429BD7 /* astronauts.json in Resources */ = {isa = PBXBuildFile; fileRef = 82FF13B0279CF4E500429BD7 /* astronauts.json */; };
+		82FF13B3279CF4EC00429BD7 /* missions.json in Resources */ = {isa = PBXBuildFile; fileRef = 82FF13B2279CF4EC00429BD7 /* missions.json */; };
+		82FF13B5279CF51200429BD7 /* Astronaut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FF13B4279CF51200429BD7 /* Astronaut.swift */; };
+		82FF13B7279CF5AB00429BD7 /* Bundle-Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FF13B6279CF5AB00429BD7 /* Bundle-Decodable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		82B3295827A46CCE00A8386A /* MissionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionView.swift; sourceTree = "<group>"; };
+		82E884E427A28D84003BD6AB /* Mission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mission.swift; sourceTree = "<group>"; };
+		82E884E627A2A7B6003BD6AB /* color-theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "color-theme.swift"; sourceTree = "<group>"; };
 		82FF139D279CF48000429BD7 /* Moonshot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Moonshot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		82FF13A0279CF48000429BD7 /* MoonshotApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoonshotApp.swift; sourceTree = "<group>"; };
 		82FF13A2279CF48000429BD7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		82FF13A4279CF48200429BD7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		82FF13A7279CF48200429BD7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		82FF13AE279CF49500429BD7 /* before.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = before.swift; sourceTree = "<group>"; };
+		82FF13B0279CF4E500429BD7 /* astronauts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = astronauts.json; sourceTree = "<group>"; };
+		82FF13B2279CF4EC00429BD7 /* missions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = missions.json; sourceTree = "<group>"; };
+		82FF13B4279CF51200429BD7 /* Astronaut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Astronaut.swift; sourceTree = "<group>"; };
+		82FF13B6279CF5AB00429BD7 /* Bundle-Decodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle-Decodable.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +69,14 @@
 			children = (
 				82FF13A0279CF48000429BD7 /* MoonshotApp.swift */,
 				82FF13A2279CF48000429BD7 /* ContentView.swift */,
+				82B3295827A46CCE00A8386A /* MissionView.swift */,
+				82E884E627A2A7B6003BD6AB /* color-theme.swift */,
+				82FF13B4279CF51200429BD7 /* Astronaut.swift */,
+				82FF13B6279CF5AB00429BD7 /* Bundle-Decodable.swift */,
+				82FF13B0279CF4E500429BD7 /* astronauts.json */,
+				82FF13B2279CF4EC00429BD7 /* missions.json */,
+				82E884E427A28D84003BD6AB /* Mission.swift */,
+				82FF13AE279CF49500429BD7 /* before.swift */,
 				82FF13A4279CF48200429BD7 /* Assets.xcassets */,
 				82FF13A6279CF48200429BD7 /* Preview Content */,
 			);
@@ -125,7 +149,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82FF13B1279CF4E500429BD7 /* astronauts.json in Resources */,
 				82FF13A8279CF48200429BD7 /* Preview Assets.xcassets in Resources */,
+				82FF13B3279CF4EC00429BD7 /* missions.json in Resources */,
 				82FF13A5279CF48200429BD7 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,8 +163,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82E884E727A2A7B6003BD6AB /* color-theme.swift in Sources */,
+				82E884E527A28D84003BD6AB /* Mission.swift in Sources */,
+				82B3295927A46CCE00A8386A /* MissionView.swift in Sources */,
 				82FF13A3279CF48000429BD7 /* ContentView.swift in Sources */,
+				82FF13AF279CF49500429BD7 /* before.swift in Sources */,
+				82FF13B7279CF5AB00429BD7 /* Bundle-Decodable.swift in Sources */,
 				82FF13A1279CF48000429BD7 /* MoonshotApp.swift in Sources */,
+				82FF13B5279CF51200429BD7 /* Astronaut.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +309,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -306,6 +339,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
